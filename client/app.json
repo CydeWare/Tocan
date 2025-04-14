@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "Storegg",
+    "slug": "Storegg",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/logo-storegg.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "entryPoint": "expo-router/entry",
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static"
+    
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
